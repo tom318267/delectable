@@ -25,5 +25,10 @@
     margin: 40px auto;
     text-align: center;
     font-size: 1.2rem;
+
+    @media screen and (max-width: 425px) {
+      width: 80%;
+      font-size: 0.8rem;
+    }
   }
 }
