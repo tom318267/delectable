@@ -1,13 +1,13 @@
 import React from "react";
 import Meal from "../Meal/Meal";
-import Spinner from "../Spinner/Spinner";
+import SpinnerHome from "../Spinner/SpinnerHome";
 import { useGlobalContext } from "../../context";
 import "./MealList.scss";
 
 const MealList = () => {
   const { meals, loading } = useGlobalContext();
   if (loading) {
-    return <Spinner />;
+    return <SpinnerHome />;
   }
 
   if (meals.length < 1) {

@@ -1,13 +1,13 @@
 import React from "react";
 import spinner from "../../assets/spinner.gif";
-import "./Spinner.scss";
+import "./SpinnerHome.scss";
 
-const Spinner = () => {
+const SpinnerHome = () => {
   return (
-    <div className="Spinner">
+    <div className="SpinnerHome">
       <img src={spinner} alt="loader" />
     </div>
   );
 };
 
-export default Spinner;
+export default SpinnerHome;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import Spinner from "../Spinner/Spinner";
+import SpinnerShow from "../Spinner/SpinnerShow";
 import "./MealShow.scss";
 
 const MealShow = () => {
@@ -48,7 +48,7 @@ const MealShow = () => {
   }, [id]);
 
   if (loading) {
-    return <Spinner />;
+    return <SpinnerShow />;
   }
 
   if (!meal) {
