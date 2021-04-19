@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 import MealShow from "./components/MealShow/MealShow";
 import Contact from "./components/Contact/Contact";
+import PopularMeals from "./components/PopularMeals/PopularMeals";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route exact path="/" component={Homepage} />
           <Route path="/meal/:id" component={MealShow} />
           <Route path="/contact" component={Contact} />
+          <Route path="/popular" component={PopularMeals} />
         </Switch>
       </Router>
     </div>

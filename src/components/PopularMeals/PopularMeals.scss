@@ -1,2 +1,51 @@
 .PopularMeals {
+  margin: 100px 0;
+  .popular-back {
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: relative;
+    margin-left: 60px;
+    bottom: 130px;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .pop-meals-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h1 {
+      font-family: "Lobster", cursive;
+      text-align: center;
+      font-size: 3.5rem;
+    }
+
+    .ribs {
+      width: 70%;
+      border-radius: 10px;
+    }
+
+    .horizontal-items {
+      text-align: center;
+      img {
+        width: 30%;
+        border-radius: 10px;
+
+        &:first-child {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
 }

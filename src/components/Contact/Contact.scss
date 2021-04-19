@@ -1,27 +1,28 @@
 .Contact {
   margin: 100px 0;
-  form {
-    .back-contact {
-      display: flex;
-      padding: 10px 20px;
-      border: none;
-      background-color: black;
+  .back-contact {
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: relative;
+    margin-left: 60px;
+    bottom: 130px;
+
+    a {
       color: white;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1.2rem;
-      position: relative;
-      bottom: 130px;
-
-      a {
-        color: white;
-        text-decoration: none;
-      }
-
-      @media screen and (max-width: 425px) {
-        display: none;
-      }
+      text-decoration: none;
     }
+
+    @media screen and (max-width: 425px) {
+      display: none;
+    }
+  }
+  form {
     width: 80%;
     margin: 0 auto;
     font-family: "Oswald", sans-serif;
