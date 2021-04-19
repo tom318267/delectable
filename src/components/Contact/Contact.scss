@@ -26,12 +26,17 @@
       background-color: black;
       border: black;
 
+      &:hover {
+        background-color: black;
+      }
+
       &:active {
         background-color: black !important;
       }
 
       &:focus {
         box-shadow: none !important;
+        background-color: black;
       }
     }
   }
