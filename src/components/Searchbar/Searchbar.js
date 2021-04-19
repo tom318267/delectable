@@ -15,7 +15,7 @@ const Searchbar = () => {
       <input
         onChange={searchRecipe}
         type="text"
-        placeholder="e.g. Chicken Parmesan"
+        placeholder="e.g. Spaghetti"
         ref={searchValue}
       />
     </div>

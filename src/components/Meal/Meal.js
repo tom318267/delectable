@@ -12,7 +12,7 @@ const Meal = ({ id, name, image, instructions, origin, category }) => {
           <h5 className="card-title">{name}</h5>
           <p className="card-text">Type: {category}</p>
           <Link to={`/meal/${id}`} className="btn btn-primary">
-            Details
+            More Info
           </Link>
         </div>
       </div>
