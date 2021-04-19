@@ -18,6 +18,10 @@
       color: white;
       text-decoration: none;
     }
+
+    @media screen and (max-width: 425px) {
+      display: none;
+    }
   }
   .meal-div {
     padding: 0 50px;
