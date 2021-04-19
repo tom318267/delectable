@@ -8,7 +8,7 @@ const Homepage = () => {
   return (
     <div className="Homepage">
       <div className="header">
-        <div className="title-img-container">
+        <div className="title-img-container animate__animated animate__lightSpeedInLeft">
           <h1 className="title">
             <span>
               <img className="foodImg" src={food} alt="food" />

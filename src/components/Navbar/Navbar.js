@@ -7,12 +7,12 @@ const Navbar = () => {
     <div className="Navbar">
       <nav>
         <ul>
-          <li className="nav-item">
+          <li>
             <Link className="hvr-underline-from-left" to="/">
               Home
             </Link>
           </li>
-          <li className="nav-item">
+          <li>
             <Link className="hvr-underline-from-left">Top Recipes</Link>
           </li>
           <li>
