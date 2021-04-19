@@ -59,12 +59,12 @@ const MealShow = () => {
   const { name, category, instructions, image } = meal;
   return (
     <div className="MealShow">
+      <button className="show-back">
+        <Link to="/">
+          <i class="fas fa-arrow-left"></i> Back
+        </Link>
+      </button>
       <div className="meal-div">
-        <button>
-          <Link to="/">
-            <i class="fas fa-arrow-left"></i> Back
-          </Link>
-        </button>
         <h1>{name}</h1>
         <h3>Type: {category}</h3>
         <img src={image} alt={name} />
