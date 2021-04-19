@@ -1,0 +1,37 @@
+.Meal {
+  font-family: "Oswald", sans-serif;
+  .card {
+    width: 300px;
+    margin-top: 80px;
+    border-radius: 10px;
+
+    @media screen and (max-width: 425px) {
+      width: 260px;
+    }
+
+    .card-body {
+      .card-title {
+        font-size: 1.5rem;
+      }
+
+      .card-text {
+        font-size: 1.2rem;
+      }
+      .btn-primary {
+        background-color: #c45608;
+        border-color: #c45608;
+        display: block;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.2rem;
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+    }
+
+    img {
+      border-radius: 10px 10px 0 0;
+    }
+  }
+}

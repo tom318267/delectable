@@ -1,0 +1,61 @@
+.Homepage {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffbb56;
+
+  .header {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+
+    @media screen and (max-width: 425px) {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 100px;
+    }
+
+    .title {
+      font-family: "Lobster", cursive;
+      font-size: 78px;
+      position: relative;
+      z-index: 1;
+
+      @media screen and (max-width: 425px) {
+        font-size: 48px;
+      }
+
+      span {
+        @media screen and (max-width: 425px) {
+          position: relative;
+          bottom: 10px;
+        }
+
+        .foodImg {
+          width: 180px;
+          position: absolute;
+          z-index: -1;
+          left: 5px;
+          top: -58px;
+
+          @media screen and (max-width: 425px) {
+            position: unset;
+            width: 80px;
+          }
+        }
+      }
+    }
+
+    .sub-head {
+      font-family: "Oswald", sans-serif;
+      font-size: 24px;
+
+      @media screen and (max-width: 425px) {
+        font-size: 18px;
+        margin-top: -13px;
+      }
+    }
+  }
+}
