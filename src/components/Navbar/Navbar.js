@@ -8,13 +8,15 @@ const Navbar = () => {
       <nav>
         <ul>
           <li className="nav-item">
-            <Link to="/">Home</Link>
+            <Link className="hvr-underline-from-left" to="/">
+              Home
+            </Link>
           </li>
           <li className="nav-item">
-            <Link>Top Recipes</Link>
+            <Link className="hvr-underline-from-left">Top Recipes</Link>
           </li>
           <li>
-            <Link>Contact</Link>
+            <Link className="hvr-underline-from-left">Contact</Link>
           </li>
         </ul>
       </nav>
