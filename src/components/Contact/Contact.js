@@ -1,10 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Contact.scss";
 
 const Contact = () => {
   return (
     <div className="Contact">
       <form>
+        <button className="back-contact">
+          <Link to="/">
+            <i class="fas fa-arrow-left"></i> Back
+          </Link>
+        </button>
         <h1>Contact Us</h1>
         <div class="form-group">
           <label for="name">Name</label>
