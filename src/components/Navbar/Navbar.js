@@ -16,7 +16,9 @@ const Navbar = () => {
             <Link className="hvr-underline-from-left">Popular Meals</Link>
           </li>
           <li>
-            <Link className="hvr-underline-from-left">Contact</Link>
+            <Link to="/contact" className="hvr-underline-from-left">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

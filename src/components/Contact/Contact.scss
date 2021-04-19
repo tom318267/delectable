@@ -1,0 +1,42 @@
+.Contact {
+  margin-top: 100px;
+  form {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+    h1 {
+      font-family: "Lobster", cursive;
+      font-size: 3.5rem;
+
+      @media screen and (max-width: 425px) {
+        font-size: 3rem;
+      }
+    }
+
+    label {
+      font-size: 1.2rem;
+    }
+
+    textarea {
+      padding: 40px 0;
+    }
+
+    button {
+      font-size: 1.3rem;
+      background-color: black;
+      border: black;
+
+      &:active {
+        background-color: black !important;
+      }
+
+      &:focus {
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    margin-top: 40px;
+  }
+}
