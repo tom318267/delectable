@@ -13,7 +13,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="hvr-underline-from-left">Top Recipes</Link>
+            <Link className="hvr-underline-from-left">Popular Meals</Link>
           </li>
           <li>
             <Link className="hvr-underline-from-left">Contact</Link>
