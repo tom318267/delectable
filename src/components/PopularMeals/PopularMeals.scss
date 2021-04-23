@@ -77,6 +77,10 @@
           transform: translateY(20px);
           transition: transform 0.25s;
 
+          @media screen and (max-width: 425px) {
+            font-size: 2rem;
+          }
+
           &:hover {
             transform: translateY(0);
           }
@@ -121,6 +125,10 @@
           transform: translateY(20px);
           transition: transform 0.25s;
 
+          @media screen and (max-width: 425px) {
+            font-size: 2rem;
+          }
+
           &:hover {
             transform: translateY(0);
           }
@@ -164,6 +172,10 @@
           align-items: center;
           transform: translateY(20px);
           transition: transform 0.25s;
+
+          @media screen and (max-width: 425px) {
+            font-size: 2rem;
+          }
 
           &:hover {
             transform: translateY(0);
