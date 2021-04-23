@@ -34,10 +34,6 @@
     align-items: center;
     gap: 20px;
 
-    @media screen and (max-width: 425px) {
-      margin-bottom: 20px;
-    }
-
     h1 {
       font-family: "Lobster", cursive;
       text-align: center;
@@ -48,6 +44,10 @@
       display: flex;
       justify-content: center;
       position: relative;
+
+      @media screen and (max-width: 425px) {
+        margin-bottom: 20px;
+      }
       .ribs {
         width: 70%;
         height: 100%;
@@ -96,6 +96,10 @@
       display: flex;
       justify-content: center;
       position: relative;
+
+      @media screen and (max-width: 425px) {
+        margin-bottom: 20px;
+      }
       .salmon {
         width: 70%;
         height: 100%;
@@ -144,6 +148,10 @@
       display: flex;
       justify-content: center;
       position: relative;
+
+      @media screen and (max-width: 425px) {
+        margin-bottom: 20px;
+      }
       .steak {
         width: 70%;
         height: 100%;
