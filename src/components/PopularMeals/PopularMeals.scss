@@ -1,5 +1,9 @@
 .PopularMeals {
   margin: 100px 0;
+
+  @media screen and (max-width: 425px) {
+    margin: 70px 0;
+  }
   .popular-back {
     display: flex;
     font-family: "Oswald", sans-serif;
