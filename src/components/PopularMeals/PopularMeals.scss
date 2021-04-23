@@ -32,7 +32,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-gap: 20px !important;
+    gap: 20px;
+
+    @media screen and (max-width: 425px) {
+      margin-bottom: 20px;
+    }
 
     h1 {
       font-family: "Lobster", cursive;
